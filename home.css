@@ -1,3 +1,4 @@
+/* General page layout settings accross the site */
 * {
     margin: 0;
     padding: 0;
@@ -42,6 +43,7 @@ main {
     transition: all 0.3s;
 }
 
+/* Animated 'View Projects' button */
 .mainbox a:hover {
     padding-right: 25px;
     transition: 0.3s;
@@ -62,10 +64,9 @@ main {
     opacity: 1;
     right: -10px;
 }
-/* Media query for iphone */
+/* responsive layout for smartphone viewport*/
 @media only screen and (max-width:650px) {
     .mainbox {
         width: 75%;
     }
 }
-
